@@ -1,0 +1,393 @@
+.bg-image {
+  background-image: url("../img/slide.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.bg-image-between {
+  background-image: url("../img/cta-bg.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-shadow {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.box-shadow {
+  box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+a.hover-1 {
+  position: relative;
+  color: white !important;
+}
+
+a.hover-1:hover {
+  color: red !important;
+}
+.card {
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+.card:hover {
+  transform: translateY(-15px);
+}
+.card1 {
+  cursor: pointer;
+  transition: ease 0.7s;
+}
+.card1:hover {
+  transform: translateY(-10px);
+}
+.resim-container {
+  position: relative;
+  display: inline-block;
+}
+
+.resim-container img {
+  display: block;
+}
+
+.ikon {
+  position: absolute;
+  font-size: 2em;
+  color: white;
+  display: none;
+  bottom: 10px;
+  left: 20%;
+}
+
+.ikon-1 {
+  left: 25%; /* Resmin genişliğinin %25'i kadar soldan */
+  transform: translateX(-50%); /* Yatayda ortalar */
+}
+
+.ikon-2 {
+  left: 50%; /* Resmin genişliğinin %40'ı kadar soldan */
+  transform: translateX(-50%); /* Yatayda ortalar */
+}
+
+.ikon-3 {
+  left: 75%; /* Resmin genişliğinin %55'i kadar soldan */
+  transform: translateX(-50%); /* Yatayda ortalar */
+}
+
+.resim-container:hover .ikon {
+  display: block;
+}
+.gravitas-one-regular {
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card1 {
+  height: 302px;
+  object-fit: cover;
+}
+
+/* Custom grid classes */
+.my-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.my-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.my-col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.my-col-lg-5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.my-col-lg-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.my-col-lg-7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.my-col-md-2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.my-col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.my-g-0 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.my-g-0 > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.my-g-4 {
+  margin-right: -1.5rem;
+  margin-left: -1.5rem;
+}
+
+.my-g-4 > * {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.my-py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.my-mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.my-mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.my-mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.my-mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+.my-text-center {
+  text-align: center !important;
+}
+
+.my-text-end {
+  text-align: right !important;
+}
+
+.my-text-lg-end {
+  text-align: right !important;
+}
+
+.my-fw-bold {
+  font-weight: 700 !important;
+}
+
+.my-d-flex {
+  display: flex !important;
+}
+
+.my-align-items-center {
+  align-items: center !important;
+}
+
+.my-justify-content-center {
+  justify-content: center !important;
+}
+
+.my-w-100 {
+  width: 100% !important;
+}
+
+.my-bg-black {
+  background-color: #000 !important;
+}
+
+.my-bg-danger {
+  background-color: #dc3545 !important;
+}
+
+.my-text-white {
+  color: #fff !important;
+}
+
+.my-text-danger {
+  color: #dc3545 !important;
+}
+
+.my-text-muted {
+  color: #6c757d !important;
+}
+
+.my-text-secondary {
+  color: #6c757d !important;
+}
+
+.my-text-dark {
+  color: #212529 !important;
+}
+
+.my-btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.my-btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.my-btn-outline-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.my-px-4 {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+.my-px-5 {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+
+.my-py-2 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.my-py-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+.my-mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.my-small {
+  font-size: 0.875em;
+}
+
+.my-fs-4 {
+  font-size: 1.5rem !important;
+}
+
+.my-gap-3 {
+  gap: 1rem !important;
+}
+
+.my-display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.my-display-5 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.my-lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.my-min-height {
+  min-height: 300px;
+}
+
+.my-bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.my-border-0 {
+  border: 0 !important;
+}
+
+.my-form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.my-mb-lg-0 {
+  margin-bottom: 0 !important;
+}
+
+.my-text-lg-end {
+  text-align: right !important;
+}
+
+.my-mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.my-justify-content-center {
+  justify-content: center !important;
+}
+
+.my-rows-4 {
+  height: 6rem;
+}
+
+
